@@ -46,4 +46,4 @@ I take remote contract work in flow control specification, technical documentati
 
 If you are hiring rather than contracting, the same experience applies to application engineering, technical sales and bid management roles.
 
-Reach me through [LinkedIn](https://www.linkedin.com/in/nikola-vukadin) or open an issue on either repository.
+[Portfolio and case studies](https://cotton-booklet-950.notion.site/Nikola-Vukadin-Portfolio-3464d524ee72816b871cf66171ff89eb), or open an issue on either repository.
