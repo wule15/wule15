@@ -20,7 +20,7 @@ Novi Sad, Serbia. Available for remote contract work.
 
 ### Code
 
-**[Flow-coef-calc](https://github.com/wule15/Flow-coef-calc)** - valve sizing to IEC 60534-2-1. Liquid and gas flow coefficient including choked flow, a cited fluid property table, and material screening in both ASME and EN designations. Standard library only, 99 tests.
+**[Flow-coef-calc](https://github.com/wule15/Flow-coef-calc)** - valve sizing to IEC 60534-2-1. Liquid and gas flow coefficient including choked flow, a cited fluid property table, and material screening in both ASME and EN designations. Standard library only, 306 tests.
 
 It is built around one idea: a sizing calculation returns a number, and the number cannot tell you the valve is choked, that the flow went laminar, or that Joule-Thomson cooling took the body below what its material is rated for. So it reports what it checked, and says plainly when it did not check something.
 
@@ -46,4 +46,4 @@ I take remote contract work in flow control specification, technical documentati
 
 If you are hiring rather than contracting, the same experience applies to application engineering, technical sales and bid management roles.
 
-[Portfolio and case studies](https://cotton-booklet-950.notion.site/Nikola-Vukadin-Portfolio-3464d524ee72816b871cf66171ff89eb), or open an issue on either repository.
+[Portfolio and case studies](https://cotton-booklet-950.notion.site/Nikola-Vukadin-Portfolio-3464d524ee72816b871cf66171ff89eb), [LinkedIn](https://www.linkedin.com/in/nikola-vukadin), or open an issue on either repository.
