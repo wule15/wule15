@@ -2,7 +2,7 @@
 
 Mechanical engineer. Industrial fluid systems, valve and flow control, and the technical writing that goes with them.
 
-Novi Sad, Serbia. Available for remote contract work.
+Novi Sad, Serbia. Open to employment or remote contract work.
 
 ---
 
@@ -20,15 +20,15 @@ Novi Sad, Serbia. Available for remote contract work.
 
 ### Code
 
-**[Flow-coef-calc](https://github.com/wule15/Flow-coef-calc)** - valve sizing to EN IEC 60534-2-1:2011. Liquid and gas flow coefficient, the choked flow check, the Reynolds number factor FR for viscous flow on both paths, a cited fluid property table, and material screening in both ASME and EN designations. Standard library only, 303 tests.
+**[Flow-coef-calc](https://github.com/wule15/Flow-coef-calc)** - valve sizing to EN IEC 60534-2-1:2011. Liquid and gas flow coefficient, the choked flow check, the Reynolds number factor FR for viscous flow on both paths, a cited fluid property table, and material screening in both ASME and EN designations. Standard library only, 331 tests.
 
 It is built around one idea: a sizing calculation returns a number, and the number cannot tell you the valve is choked, that the flow went laminar, or that Joule-Thomson cooling took the body below what its material is rated for. So it reports what it checked, and says plainly when it did not check something.
 
-A [browser calculator](https://wule15.github.io/Flow-coef-calc/) ports the liquid and gas formulas to JavaScript and is checked against the library.
+A [browser calculator](https://wule15.github.io/Flow-coef-calc/) ports the common liquid and gas cases to JavaScript, without the viscous correction, and is checked against the library.
 
 **[Job-intelligence-agent](https://github.com/wule15/Job-intelligence-agent)** - a daily pipeline that reads company careers boards (Greenhouse, Lever, Ashby, SmartRecruiters, Workday, SuccessFactors) and other job sources, deduplicates, filters on eligibility, title, language, experience and degree rules, scores each listing against my CV variants and sends a capped Telegram digest. It keeps a send history and holds back jobs already sent. Python, no agent or scraping framework, 1003 tests.
 
-One test runs a whole day through the real pipeline, with only the job boards, the database and the Telegram call replaced. A Dockerfile is included and was tested with a real run on 2026-10-01.
+One test file runs whole days through the real pipeline, from search to the Telegram message, with every network call faked and a temporary database. A Dockerfile is included and was tested with a real run on 2026-10-01.
 
 The README documents a bug that quietly discarded 86 percent of results for weeks, why it took so long to notice, and what changed as a result. That section is there on purpose.
 
@@ -46,8 +46,6 @@ Serbian native, English fluent, German intermediate.
 
 ### Working with me
 
-I take remote contract work in flow control specification, technical documentation, and engineering content.
+I am open to employment in application engineering, technical sales and bid management, and to remote contract work in flow control specification, technical documentation and engineering content.
 
-If you are hiring rather than contracting, the same experience applies to application engineering, technical sales and bid management roles.
-
-[Portfolio and case studies](https://cotton-booklet-950.notion.site/Nikola-Vukadin-Portfolio-3464d524ee72816b871cf66171ff89eb), [LinkedIn](https://www.linkedin.com/in/nikola-vukadin), or open an issue on either repository.
+[Portfolio and case studies](https://cotton-booklet-950.notion.site/Nikola-Vukadin-Portfolio-3464d524ee72816b871cf66171ff89eb), [LinkedIn](https://www.linkedin.com/in/nikola-vukadin), or open an issue on any of the repositories above.
