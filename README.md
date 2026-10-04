@@ -10,21 +10,25 @@ Novi Sad, Serbia. Available for remote contract work.
 
 **Size and specify flow control equipment.** Valves, pumps, hydraulic and pneumatic circuits. I have surveyed and catalogued over 1,500 valves across a tyre manufacturing plant and specified equipment for process, oil and gas, and mining installations.
 
-**Write technical content that engineers read without wincing.** I audited and rewrote over 200 product and application articles for a European B2B distributor of industrial components, working on how technical accuracy and search visibility fit together rather than trading one for the other.
+**Write technical content for engineers.** I audited over 200 technical articles for a European B2B distributor of industrial components, backed my recommendations with search analytics data, and wrote a selection guide on solenoid valve operating principles. I also publish [AI visibility audits](https://github.com/wule15/citation-case-studies) of industrial companies: what an AI crawler can read on their sites, and which suppliers four AI answer engines actually name.
 
-**Run the commercial side of technical sales.** I issued EUR 300K to 500K of proposals over roughly two years, personally producing around 70 percent of them, and led a technical department of five.
+**Run the commercial side of technical sales.** I issued EUR 300K to 500K of proposals over roughly two years, personally producing around 70 percent of them, and led a technical department of five to eight people.
 
-**Build the tools when buying them does not fit.** Both repositories below are mine, and both are working software rather than demonstrations.
+**Build the tools when buying them does not fit.** Both code repositories below are mine, and both have test suites.
 
 ---
 
 ### Code
 
-**[Flow-coef-calc](https://github.com/wule15/Flow-coef-calc)** - valve sizing to IEC 60534-2-1. Liquid and gas flow coefficient including choked flow, a cited fluid property table, and material screening in both ASME and EN designations. Standard library only, 306 tests.
+**[Flow-coef-calc](https://github.com/wule15/Flow-coef-calc)** - valve sizing to EN IEC 60534-2-1:2011. Liquid and gas flow coefficient, the choked flow check, the Reynolds number factor FR for viscous flow on both paths, a cited fluid property table, and material screening in both ASME and EN designations. Standard library only, 303 tests.
 
 It is built around one idea: a sizing calculation returns a number, and the number cannot tell you the valve is choked, that the flow went laminar, or that Joule-Thomson cooling took the body below what its material is rated for. So it reports what it checked, and says plainly when it did not check something.
 
-**[Job-intelligence-agent](https://github.com/wule15/Job-intelligence-agent)** - a daily pipeline that reads employer careers pages and job boards, deduplicates, scores each listing against my CVs and delivers a capped digest. Python, no framework, 190 tests.
+A [browser calculator](https://wule15.github.io/Flow-coef-calc/) ports the liquid and gas formulas to JavaScript and is checked against the library.
+
+**[Job-intelligence-agent](https://github.com/wule15/Job-intelligence-agent)** - a daily pipeline that reads company careers boards (Greenhouse, Lever, Ashby, SmartRecruiters, Workday, SuccessFactors) and other job sources, deduplicates, filters on eligibility, title, language, experience and degree rules, scores each listing against my CV variants and sends a capped Telegram digest. It keeps a send history and holds back jobs already sent. Python, no agent or scraping framework, 1003 tests.
+
+One test runs a whole day through the real pipeline, with only the job boards, the database and the Telegram call replaced. A Dockerfile is included and was tested with a real run on 2026-10-01.
 
 The README documents a bug that quietly discarded 86 percent of results for weeks, why it took so long to notice, and what changed as a result. That section is there on purpose.
 
@@ -36,13 +40,13 @@ BSc Mechanical Engineering, Energy and Process Engineering, University of Novi S
 
 ATEX certified. ePlan Fundamentals. FEA, Brno University of Technology.
 
-Serbian native, English fluent, German basic.
+Serbian native, English fluent, German intermediate.
 
 ---
 
 ### Working with me
 
-I take remote contract work in flow control specification, technical documentation, and engineering content. I invoice as a registered contractor.
+I take remote contract work in flow control specification, technical documentation, and engineering content.
 
 If you are hiring rather than contracting, the same experience applies to application engineering, technical sales and bid management roles.
 
