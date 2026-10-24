@@ -26,9 +26,9 @@ It is built around one idea: a sizing calculation returns a number, and the numb
 
 A [browser calculator](https://wule15.github.io/Flow-coef-calc/) ports the common liquid and gas cases to JavaScript, without the viscous correction, and is checked against the library.
 
-**[Job-intelligence-agent](https://github.com/wule15/Job-intelligence-agent)** - a daily pipeline that reads company careers boards (Greenhouse, Lever, Ashby, SmartRecruiters, Workday, SuccessFactors) and other job sources, deduplicates, filters on eligibility, title, language, experience and degree rules, scores each listing against my CV variants and sends a capped Telegram digest. It keeps a send history and holds back jobs already sent. Python, no agent or scraping framework, 1158 tests.
+**[Job-intelligence-agent](https://github.com/wule15/Job-intelligence-agent)** - a daily pipeline that reads company careers boards (Greenhouse, Lever, Ashby, SmartRecruiters, Workday, SuccessFactors) and other job sources, deduplicates, filters on eligibility, title, language, experience and degree rules, scores each listing against my CV variants and sends a capped Telegram digest. It keeps a send history and holds back jobs already sent. Python, no agent or scraping framework, 1267 tests.
 
-One test file runs whole days through the real pipeline, from search to the Telegram message, with every network call faked and a temporary database. A Dockerfile is included and was tested with a real run on 2026-10-01.
+One test file runs whole days through the real pipeline, from search to the Telegram message, with every network call faked and a temporary database. It runs once a day as a Google Cloud Run job, built from the included Dockerfile.
 
 The README documents a bug that quietly discarded 86 percent of results for weeks, why it took so long to notice, and what changed as a result. That section is there on purpose.
 
