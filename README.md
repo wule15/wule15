@@ -2,7 +2,7 @@
 
 Mechanical engineer. Industrial fluid systems, valve and flow control, and the technical writing that goes with them.
 
-Novi Sad, Serbia. Open to employment or remote contract work.
+Serbia. Technical sales at EGAL Intech since October 2026.
 
 ---
 
@@ -44,8 +44,6 @@ Serbian native, English fluent, German intermediate.
 
 ---
 
-### Working with me
-
-I am open to employment in application engineering, technical sales and bid management, and to remote contract work in flow control specification, technical documentation and engineering content.
+### Get in touch
 
 [Portfolio and case studies](https://cotton-booklet-950.notion.site/Nikola-Vukadin-Portfolio-3464d524ee72816b871cf66171ff89eb), [LinkedIn](https://www.linkedin.com/in/nikola-vukadin), or open an issue on any of the repositories above.
